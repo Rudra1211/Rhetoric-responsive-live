@@ -1,0 +1,187 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #444444;
+}
+
+#navbar {
+    display: flex;
+    padding: 8px;
+    background-color: #374151;
+
+}
+
+#logo {
+    height: 32px;
+    width: 32px;
+    padding: 1px;
+}
+
+#name {
+    padding: 1px;
+    margin: 1px;
+
+}
+
+h1 ,h2 , h3 , h4 , h5 , h6 {
+    text-align: center;
+    color: #222222;
+    font-family: "Kanit";
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+#banner {
+    width: 100%;
+    margin-top: 0%;
+    padding-top: 0%;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 0px 0px 100px 100px;
+}
+
+#team {
+    border: 5px solid rgb(49, 49, 49);
+    border-radius: 00px;
+    height: 250px;
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #3B82F6;
+}
+
+a:hover  {
+    color: #000000;
+}
+
+
+#about {
+    display: flex;
+    margin: 0 auto;
+
+}
+
+#description {
+    width: 50%;
+    margin-left: 100px;
+    text-align: center;
+    font-family: "Quicksand";
+    font-weight: 1000;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#teamimg {
+    width: fit-content;
+
+}
+
+#footer {
+    background-color: #CBD5E1;
+    padding: 5px;
+
+}
+
+.link {
+
+    margin: auto 50px;
+    padding: 3px;
+    font-size: large;
+
+}
+
+#foot {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#links {
+    list-style: none;
+    text-align: center;
+}
+
+#links li {
+    display: inline;
+
+}
+
+#jobs {
+    max-width: 700px;
+    margin: 0px auto 20px;
+    padding: 0px;
+    
+}
+
+
+
+.jobs-header-row th {
+    border: 0px solid grey;
+    padding: 8px;
+    color: #222222;
+    text-align: left;
+    background-color: #BAE6FD;
+    border: 1px solid black;
+    font-weight: 700;
+}
+
+.jobs-data-row td {
+    border: 1px solid black;
+    padding: 8px;
+    font-weight: 540;
+
+}
+
+#table tr:nth-child(even) {
+    background-color: #EFF6FF;
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#application label {
+    font-weight: 700;
+    
+}
+
+#application input , select , textarea  {
+    padding: 4px;
+    font-size: 1rem;
+    margin-top: 1px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    
+}
+
+#application textarea {
+    width: 100%;
+    
+
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius : 10px;
+    font-weight: 540;
+    background-color: #BFDBFE;
+    cursor: pointer;
+    font-size: 1.09rem;
+    
+}
+
+button:hover {
+    background-color: #49baef;
+    color: aliceblue;
+}
+
