@@ -1,0 +1,12 @@
+#herosec {
+    display: flex;
+}
+
+#hero {
+    width: 50%;
+}
+
+#heroimg {
+    width: 50%;
+}
+
